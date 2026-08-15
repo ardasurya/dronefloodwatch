@@ -72,7 +72,7 @@ st.sidebar.header("⚙️ Configuration")
 try:
     secret_api_key = st.secrets["ROBOFLOW_API_KEY"]
 except Exception:
-    secret_api_key = ""
+    secret_api_key = "cTFdpGqaosygnJl7JMbH"
 
 api_key = st.sidebar.text_input(
     "Roboflow API Key",
